@@ -13,12 +13,12 @@ pip install opendatasets --upgrade
 
 ### Usage - Downloading a dataset
 
-Datasets can be downloaded within a Jupyter notebook or Python script using the `opendatasets.download` helper function. Here's some sample code for downloading the [US Elections Dataset](https://www.kaggle.com/tunguz/us-elections-dataset):
+Datasets can be downloaded within a Jupyter notebook or Python script using the `opendatasets.download` helper function. Here's some sample code for downloading the [US Accidents Dataset](https://www.kaggle.com/sobhanmoosavi/us-accidents):
 
 ```
 import opendatasets as od
-dataset_url = 'https://www.kaggle.com/tunguz/us-elections-dataset'
-od.download('https://www.kaggle.com/tunguz/us-elections-dataset')
+dataset_url = 'https://www.kaggle.com/sobhanmoosavi/us-accidents'
+od.download('https://www.kaggle.com/sobhanmoosavi/us-accidents')
 ```
 
 `dataset_url` can also point to a public Google Drive link or a raw file URL.
